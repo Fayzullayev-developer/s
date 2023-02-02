@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v34-latin-regular.eot');
+    src: local(''),
+        url('../fonts/open-sans-v34-latin-regular.eot   ?#iefix') format('embedded-opentype'),
+        url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'),
+        url('../fonts/open-sans-v34-latin-regular.woff') format('woff'),
+        url('../fonts/open-sans-v34-latin-regular.ttf') format('truetype'),
+        url('../fonts/open-sans-v34-latin-regular.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/anton-v23-latin-regular.eot');
+    src: local(''),
+        url('../fonts/anton-v23-latin-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/anton-v23-latin-regular.woff2') format('woff2'),
+        url('../fonts/anton-v23-latin-regular.woff') format('woff'),
+        url('../fonts/anton-v23-latin-regular.ttf') format('truetype'),
+        url('../fonts/anton-v23-latin-regular.svg#Anton') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+}
+
+nav div {
+    display: flex;
+    align-items: center
+}
+
+.nav_meny {
+    display: flex;
+    column-gap: 40px;
+}
+
+nav div img {
+    margin-right: 69px;
+}
+
+.nav_meny li a,
+.number {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.header_the_life {
+    margin-top: 229px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header_burning_man {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 151px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header_text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 18px 23px;
+    width: 238px;
+    margin-top: 19px;
+    display: inline-block;
+    margin-bottom: 281px;
+}
+
+/* end of header */
+
+/*  About the event section  */
+.section_about_teh_event {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 113px 0px 58px 0px;
+}
+
+.about {
+    display: flex;
+    column-gap: 36px;
+}
+
+.about h3 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 19px;
+}
+
+.about p {
+    width: 564px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    color: #000000;
+}
+
+.section_img {
+    display: flex;
+    margin-top: 67px;
+    column-gap: 30px;
+    column-gap: 30px;
+}
+
+.text {
+    margin: 114px 0px 80px 0px;
+    display: flex;
+    column-gap: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+/*  end of About the event section  */
